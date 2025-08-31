@@ -1,0 +1,99 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 5rem;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-wrapper,
+.title {
+    margin-bottom: 100px;
+}
+
+.title {
+    text-align: center;
+}
+
+.block-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    background: linear-gradient(210deg, #34bb34, rgb(34, 128, 0));
+    height: 300px;
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.text {
+    font-size: 2rem;
+}
+
+/* ====================================================== */
+
+.title::before {
+    content: '';
+    background-color: #c26262;
+    border-radius: 30px;
+    border: 1px groove #fff;
+    transform: scale(6);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 31%;
+    top: 8%;
+}
+
+.title::after {
+    content: '';
+    background-color: #4f6dc0;
+    border-radius: 30px;
+    border: 1px groove #fff;
+    transform: scale(6);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 68%;
+    top: 8%;
+
+}
+    
+.block-wrapper {
+    position: relative;
+}
+
+.block-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #ea2a2a;
+    border-radius: 15px;
+}
+
+.block-wrapper:hover::before {
+    background: #8d2aea;
+}
+
+.text::first-line {
+    color: #34bb34;
+}
+.text::first-letter {
+    font-size: 60px;
+}
