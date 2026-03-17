@@ -1,0 +1,21 @@
+table {
+    font-family: sans-serif;
+    border-spacing: 0px;
+    border-collapse:collapse;
+}
+
+caption, th, tr, td {
+    border: 1px, solid, #000;
+
+}
+caption {
+    border-bottom: 0px;
+    font-weight: 600;
+}
+
+td:nth-child(6) {
+    color: #b80808;
+}
+td:last-child {
+    color: #b80808;
+}
