@@ -1,0 +1,62 @@
+div {
+    width: 280px;
+    border: solid 1px;
+    border-radius: 2%;
+    padding: 15px;
+}
+
+
+form {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+fieldset {
+    border: none;
+    padding: 0px;
+}
+legend {
+    font-weight: 600;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+label {
+    display: block;
+    padding-bottom: 2px;
+}
+input {
+    margin-bottom: 12px;
+    width: 200px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+        border-style: solid;
+    border-color: black;
+    border-image: none;
+}
+textarea {
+    resize: vertical;
+    min-height: 30px;
+    max-height: 150px;
+    width: 200px;
+    margin-bottom: 12px;
+    padding: 3px 10px;
+    border-color: black;
+    border-radius: 5px;
+}
+.input-rules {
+    width: auto;
+    cursor: pointer;
+}
+.label-rules {
+    display: inline;
+}
+
+button {
+    background-color: rgb(206, 202, 202);
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
